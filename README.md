@@ -22,8 +22,8 @@
 
 | Package | Type | Description | Link |
 | :--- | :--- | :--- | :--- |
-| **RoboBuddy-Setup-0.6.0.exe** | **EXE Setup (Recommended)** | Standard per-user installer. Creates desktop & Start Menu shortcuts, auto-checks WebView2. | [📥 Download .exe](https://github.com/MrSco/robo-buddy-releases/releases/latest/download/RoboBuddy-Setup-0.6.0.exe) |
-| **RoboBuddy-0.6.0.msi** | **MSI Installer** | Windows Installer package for system administrators and enterprise deployment. | [📥 Download .msi](https://github.com/MrSco/robo-buddy-releases/releases/latest/download/RoboBuddy-0.6.0.msi) |
+| **RoboBuddy-Setup-0.7.0.exe** | **EXE Setup (Recommended)** | Standard per-user installer. Creates desktop & Start Menu shortcuts, auto-checks WebView2. | [📥 Download .exe](https://github.com/MrSco/robo-buddy-releases/releases/latest/download/RoboBuddy-Setup-0.7.0.exe) |
+| **RoboBuddy-0.7.0.msi** | **MSI Installer** | Windows Installer package for system administrators and enterprise deployment. | [📥 Download .msi](https://github.com/MrSco/robo-buddy-releases/releases/latest/download/RoboBuddy-0.7.0.msi) |
 
 > [!TIP]
 > All releases, release notes, and file checksums are published on the [GitHub Releases](https://github.com/MrSco/robo-buddy-releases/releases) page.
@@ -32,7 +32,8 @@
 
 ## ✨ Features
 
-- 🎵 **Audio-Reactive Beat Dancing**: Listens to desktop audio using Windows WASAPI loopback without recording or uploading anything. The beat lock algorithm locks onto tempos so Buddy only grooves when real music is playing.
+- 🔊 **Web Audio Foley Soundscape**: Realistic multi-sample physical sound effects for all interactions (footsteps, landings, impacts, jumps, pokes, sleep, wake, greetings, and bubble pops) with micro-pitch jitter and dynamic velocity scaling.
+- 🎵 **Audio-Reactive Beat Dancing**: Listens to desktop audio using Windows WASAPI loopback without recording or uploading anything. The beat lock algorithm locks onto tempos so Buddy only grooves when real music is playing, with intelligent gating against his own footsteps and speech.
 - 🪟 **Window Physics & Edge Climbing**: Open applications act as physical platforms. Throw Buddy across the screen with drag-and-fling momentum, watch him tumble, land on app title bars, grab ledges, and climb himself up.
 - 📎 **Context-Aware Clippy Mode**: Buddy detects active apps (VS Code, Chrome, Terminal, Notepad, etc.) and chimes in with clever contextual tips and interactive action chips. Sensitive applications (e.g. password managers, incognito windows) are automatically blacklisted.
 - 💥 **Screensaver Havoc**: When idle, Buddy takes over the screen and treats a freeze-frame snapshot of your desktop as an arena. He leaps around breaking falling grid tiles or fractured glass cutouts before a CRT TV power-off collapse into the void.
@@ -54,7 +55,7 @@
 
 ## 🚀 Quick Start Guide
 
-1. **Install**: Run `RoboBuddy-Setup-0.6.0.exe` and follow the quick setup wizard.
+1. **Install**: Run `RoboBuddy-Setup-0.7.0.exe` and follow the quick setup wizard.
 2. **System Tray**: Look for the Robo Buddy icon in your Windows taskbar notification area (system tray). Right-click it (or right-click Buddy himself) to access:
    - **Settings**: Audio sensitivity, character management, AI brains, and screensaver options.
    - **Bring Buddy Here**: Instantly teleports Buddy to your current cursor position.
